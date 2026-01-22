@@ -1,0 +1,10 @@
+import numpy as np
+a = np.array([1,1,1,2,2,3,3,3,3,3,5,66,6,8,9,9,9,])
+print("Original Array:")
+print(a)
+a1 = np.sort(a)
+print("\nSorted elements from a:")
+print(a1)
+result = np.unique(a1)
+print("\nUnique elements from a:")
+print(result)
